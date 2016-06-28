@@ -5,9 +5,5 @@ require_relative 'Hello/hello'
 include Hello
 
 # Call and print the result from the hello method
-hello()
-# => "Hello World"
-
-# In ruby you may call without parentheses too
 hello
 # => "Hello World"
